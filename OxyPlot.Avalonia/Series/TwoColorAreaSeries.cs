@@ -148,7 +148,7 @@ namespace OxyPlot.Avalonia
         {
             get
             {
-                return (LineStyle)this.GetValue(LineStyle2Property);
+                return this.GetValue(LineStyle2Property);
             }
 
             set

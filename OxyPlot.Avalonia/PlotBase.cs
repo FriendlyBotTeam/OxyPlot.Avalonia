@@ -81,12 +81,12 @@ namespace OxyPlot.Avalonia
         /// <summary>
         /// The is visible to user cache.
         /// </summary>
-        private bool isVisibleToUserCache;
+        private readonly bool isVisibleToUserCache;
 
         /// <summary>
         /// The cached parent.
         /// </summary>
-        private Control containerCache;
+        private readonly Control containerCache;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="PlotBase" /> class.

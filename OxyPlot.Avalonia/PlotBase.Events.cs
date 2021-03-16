@@ -145,7 +145,7 @@ namespace OxyPlot.Avalonia
                 return;
             }
 
-            var releasedArgs = (PointerReleasedEventArgs)e;
+            var releasedArgs = e;
 
             ((TopLevel)this.VisualRoot).PlatformImpl.MouseDevice.Capture(null);
 
